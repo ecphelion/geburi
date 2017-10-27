@@ -20,7 +20,7 @@ header {
   width: 1024px;
   height: 200px;
   background-color: steelblue;
-  border-bottom: 2px solid lavender;
+  border-bottom: 5px solid lavender;
   font-size: 1.5em;
   padding-top: 30px;
 }
@@ -72,6 +72,10 @@ section {
   font-size: 2em;
 }
 
+.description p {
+  font-size: 1.3em;
+}
+
 .multibox {
   display: flex;
   justify-content: space-around;
@@ -79,9 +83,10 @@ section {
 }
 
 .multibox div {
-  border: 3px solid lavender;
+  border: 5px ridge lavender;
+  border-radius: 10px;
   padding: 20px 0;
-  width: 240px;
+  width: 270px;
 }
 
 .multibox span {
