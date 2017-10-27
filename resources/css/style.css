@@ -18,8 +18,9 @@ header {
   flex-direction: column;
   justify-content: center;
   width: 1024px;
-  height: 300px;
+  height: 200px;
   background-color: steelblue;
+  border-bottom: 2px solid lavender;
   font-size: 1.5em;
   padding-top: 30px;
 }
@@ -29,7 +30,7 @@ header {
 }
 
 section {
-  padding-top: 330px;
+  padding-top: 230px;
 }
 
 .container {
@@ -48,8 +49,13 @@ section {
 }
 
 .box {
-  background-color: red;
+  background-color: lavender;
   color: steelblue;
+}
+
+.box h1 {
+  letter-spacing: 7px;
+  font-weight: 200;
 }
 
 .description {
@@ -61,20 +67,52 @@ section {
   margin: 50px auto;
 }
 
-.doublebox {
-  background-color: green;
+.description h1 {
+  color: moccasin;
+  font-size: 2em;
+}
+
+.multibox {
   display: flex;
   justify-content: space-around;
   padding-bottom: 30px;
 }
 
-.doublebox div {
-  border: 3px solid white;
-  padding: 20px;
+.multibox div {
+  border: 3px solid lavender;
+  padding: 20px 0;
+  width: 240px;
+}
+
+.multibox span {
+  line-height: 20%;
 }
 
 em {
   font-size: 0.7em;
+}
+
+#special {
+  line-height: 80%;
+}
+
+#low {
+  line-height: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
+  background-color: lavender;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: steelblue;
+  color: lavender;
+  cursor: pointer;
+  border: 1px solid lavender;
+  transition: background .5s;
 }
 
 .pictures {
@@ -84,6 +122,25 @@ em {
 }
 
 footer {
+  margin: 50px 0 100px 0;
+  background-color: black;
+  height: 101px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1024px;
   background-color: steelblue;
-  height: 100px;
+}
+
+.footer a {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding: 29px 0;
 }
