@@ -14,10 +14,6 @@ header {
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1024px;
   height: 200px;
   background-color: steelblue;
   border-bottom: 5px solid lavender;
@@ -29,23 +25,32 @@ header {
   color: moccasin;
 }
 
+/* END HEADER */
+
 section {
   padding-top: 230px;
 }
+
+/* BASIC CONTAINERS .........*/
 
 .container {
   display: flex;
   justify-content: center;
 }
 
+.container-within {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1024px;
+}
+
+/* ........BASIC CONTAINERS */
+
 .mainpicture {
   background-image: url(burg.jpg);
   background-repeat: no-repeat;
   height: 683px;
-  width: 1024px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .box {
@@ -58,11 +63,9 @@ section {
   font-weight: 200;
 }
 
+/* END MAINPICTURE */
+
 .description {
-  width: 1024px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: steelblue;
   margin: 50px auto;
 }
@@ -94,16 +97,22 @@ section {
 }
 
 em {
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
-#special {
+.special {
   line-height: 80%;
 }
 
-#low {
+.low {
   line-height: 70%;
 }
+
+#margin {
+  margin-top: 40px;
+}
+
+/* END DESCRIPTION */
 
 a {
   text-decoration: none;
@@ -120,9 +129,6 @@ a:hover {
   transition: background .5s;
 }
 
-#margin {
-  margin-top: 40px;
-}
 
 .pictures {
   display: inline-flex;
@@ -134,16 +140,10 @@ footer {
   margin: 50px 0 100px 0;
   background-color: black;
   height: 101px;
-  display: flex;
-  justify-content: center;
   width: 100%;
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1024px;
   background-color: steelblue;
 }
 
