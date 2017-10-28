@@ -2,7 +2,8 @@ body {
   text-align: center;
   color: lavender;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color: black;
+  background-image: url(winter.jpg);
+  background-repeat: space;
   margin: 0 auto;
 }
 
@@ -138,18 +139,19 @@ a:hover {
 
 footer {
   margin: 50px 0 100px 0;
-  background-color: black;
   height: 101px;
   width: 100%;
 }
 
 .footer {
   background-color: steelblue;
+  border: 3px solid steelblue;
+  border-radius: 10px;
 }
 
 .footer a {
   font-size: 2em;
   font-weight: 600;
   letter-spacing: 5px;
-  padding: 29px 0;
+  padding: 28px 0;
 }
