@@ -3,7 +3,7 @@ body {
   color: lavender;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-image: url(winter.jpg);
-  background-repeat: space;
+  background-repeat: repeat;
   margin: 0 auto;
 }
 
