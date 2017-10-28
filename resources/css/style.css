@@ -83,7 +83,7 @@ section {
 }
 
 .multibox div {
-  border: 5px ridge lavender;
+  border: 5px solid lavender;
   border-radius: 10px;
   padding: 20px 0;
   width: 270px;
@@ -121,7 +121,7 @@ a:hover {
 }
 
 #margin {
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .pictures {
