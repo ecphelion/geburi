@@ -8,6 +8,7 @@ body {
 
 header {
   position: fixed;
+  z-index: 10;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -33,7 +34,7 @@ header {
 /* END HEADER */
 
 section {
-  padding-top: 230px;
+  padding-top: 152px;
 }
 
 /* BASIC CONTAINERS .........*/
@@ -53,14 +54,16 @@ section {
 /* ........BASIC CONTAINERS */
 
 .mainpicture {
-  background-image: url(burg.jpg);
-  background-repeat: no-repeat;
-  height: 683px;
 }
 
 .box {
-  background-color: lavender;
-  color: steelblue;
+  position: relative;
+  z-index: 5;
+  top: -85px;
+  padding: 10px 0;
+  background-color: steelblue;
+  color: lavender;
+  border-top: 5px solid lavender;
 }
 
 .box h1 {
