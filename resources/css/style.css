@@ -8,14 +8,14 @@ body {
 
 header {
   position: fixed;
-  z-index: 10;
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.header p {
-  margin-bottom: 10px;
+.header span {
+  color: lavender;
+
 }
 
 .header {
@@ -42,7 +42,7 @@ h1 {
 /* END HEADER */
 
 section {
-  padding-top: 152px;
+  padding-top: 230px;
 }
 
 /* BASIC CONTAINERS .........*/
@@ -61,14 +61,15 @@ section {
 
 /* ........BASIC CONTAINERS */
 
+.mainpicture {
+  background-image: url(burg.jpg);
+  background-repeat: no-repeat;
+  height: 683px;
+}
+
 .box {
-  position: relative;
-  z-index: 5;
-  top: -84px;
-  padding: 16px 0;
-  background-color: steelblue;
-  color: lavender;
-  border-top: 5px solid lavender;
+  background-color: lavender;
+  color: steelblue;
 }
 
 .box h1 {
@@ -80,7 +81,7 @@ section {
 
 .description {
   background-color: steelblue;
-  margin-bottom: 80px;
+  margin: 50px auto;
 }
 
 .description h1 {
@@ -144,12 +145,12 @@ a:hover {
 
 .pictures {
   display: inline-flex;
+  justify-content: space-around;
   width: 1024px;
-  justify-content: space-between;
 }
 
 footer {
-  margin: 80px 0 100px 0;
+  margin: 50px 0 100px 0;
   height: 101px;
   width: 100%;
 }
